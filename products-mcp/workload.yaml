@@ -1,0 +1,9 @@
+apiVersion: openchoreo.dev/v1alpha1
+metadata:
+  name: products-mcp
+endpoints:
+  - name: products-mcp
+    visibility:
+      - external
+    port: 9090
+    type: HTTP
